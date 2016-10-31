@@ -25,6 +25,22 @@ $(document).ready(function() {
 
     $("ul#outputList").append("<li class='clickable'>" + newPlace.destination() + "</li>");
 
+    // Season selector
+
+    if (seasonInput === "Spring") {
+      $("body").removeClass();
+      $("body").addClass("spring");
+    } else if (seasonInput === "Summer") {
+      $("body").removeClass();
+      $("body").addClass("summer");
+    } else if (seasonInput === "Autumn") {
+      $("body").removeClass();
+      $("body").addClass("autumn");
+    } else if (seasonInput === "Winter") {
+      $("body").removeClass();
+      $("body").addClass("winter");
+    }
+
     // Clear form
     $("input#location").val("");
     $("input#season").val("");

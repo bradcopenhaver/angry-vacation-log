@@ -2,8 +2,45 @@
   text-decoration: underline;
   color: #4286f4;
   cursor: pointer;
+  font-size: 18pt;
 }
 
 .entry {
   display: none;
+}
+
+
+.spring {
+ background: url('../img/spring.png') top left repeat;
+}
+
+.summer {
+  background: url('../img/summer.png') top left repeat;
+}
+.summer .clickable {
+  text-shadow:
+               -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                 1px 1px 0 #000;
+}
+
+.autumn {
+  background: url('../img/autumn.png') top left repeat;
+  color: white;
+}
+
+.winter {
+  background: url('../img/winter.png') top left repeat;
+  color: white;
+  text-shadow:
+               -1px -1px 0 #000,
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                 1px 1px 0 #000;
+}
+.winter .clickable{
+  color: white;
+
+
 }
