@@ -1,0 +1,9 @@
+.clickable {
+  text-decoration: underline;
+  color: #4286f4;
+  cursor: pointer;
+}
+
+.entry {
+  display: none;
+}
